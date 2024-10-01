@@ -13,6 +13,23 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="desserts.html">Dessert Options</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
   <header class="text-center">
     <h1>After Dinner Hosted by Bhavesh Goswami</h1>
   </header>
@@ -126,6 +143,59 @@
     <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
   </ul>
 </div>
+<form>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="dessert">Dessert</label>
+    <input type="text" class="form-control" id="dessert" placeholder="Enter your dessert">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="newsletter">
+    <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<div class="container mt-2">
+  <div class="row">
+      <div class="col-sm-4">
+          <div class="card">
+              <img src="ApplePie.jpg" class="card-img-top" alt="Apple Pie">
+              <div class="card-body">
+                  <h5 class="card-title">Apple Pie</h5>
+                  <p class="card-text">Apple pie is a classic dessert with a buttery crust and a spiced apple filling, often served with whipped cream or ice cream.</p>
+                  <a href="https://en.wikipedia.org/wiki/Apple_pie" class="btn btn-primary" target="_blank">Learn more</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-sm-4">
+          <div class="card">
+              <img src="Strawberry.jpg" class="card-img-top" alt="Strawberry Shortcake">
+              <div class="card-body">
+                  <h5 class="card-title">Strawberry Shortcake</h5>
+                  <p class="card-text">Strawberry shortcake is a popular dessert made with layers of sweet biscuits or sponge cake, whipped cream, and fresh strawberries.</p>
+                  <a href="https://en.wikipedia.org/wiki/Strawberry_shortcake" class="btn btn-primary" target="_blank">Learn more</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-sm-4">
+          <div class="card">
+              <img src="Oatmeal.jpg" class="card-img-top" alt="Oatmeal Cookies">
+              <div class="card-body">
+                  <h5 class="card-title">Oatmeal Cookies</h5>
+                  <p class="card-text">Oatmeal cookies are soft and chewy cookies made with oats, brown sugar, and often include raisins or chocolate chips.</p>
+                  <a href="https://en.wikipedia.org/wiki/Oatmeal_cookie" class="btn btn-primary" target="_blank">Learn more</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
 
 </body>
 </html>
